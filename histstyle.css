@@ -1,0 +1,114 @@
+#menu{
+    height: 55px;
+    width: 100%;
+    background:skyblue;
+   
+}
+#menu1{
+    height: 55px;
+    width: 60%;
+    background:skyblue;
+    float: left;
+    
+}
+#menu1 UL{
+    list-style: none;
+    padding-left: 100px;
+    
+}
+#menu1 LI{
+    height: 55px;
+    width: 130px;
+    text-align: center ; 
+    display: inline-block; 
+    line-height: 45px;
+    transform: translateY(-5px);
+    font-size: 24px;
+   
+}
+#menu1 LI:hover{
+    background: white;  
+    color: blueviolet; 
+    transition: all ease 1s;
+    border-radius: 3px;
+}
+
+.heading{
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    color: #000;
+}
+.heading span{
+    background-color: orangered;
+    color: #fff;
+    display: inline-block;
+    padding: .2rem 1rem;
+    border-radius: 2px;
+    clip-path: polygon(100% 0,100% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
+}
+
+.container{
+        width: 60%;
+        padding: 20px;
+        margin: 100px auto;
+        background: lightcoral;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .box{
+        width: 350px;
+        height: 430px;
+        background: lightcyan;
+    margin: 0px 10px;
+    transition: 0.5s;
+
+    }
+    .box:hover{
+        background: lightsalmon;
+        z-index: 2;
+        box-shadow: 2px 2px 2px 2px black;
+        transition: 0.5s;
+    }
+
+.box img{
+    margin: 0.5rem 0;
+    margin-left: 3rem;
+    height: 160px;
+    width: 130px;
+    border: 2rem;
+    border-color: black;
+}
+.box h3{
+    margin-left: 1rem;
+    font-size: 20px;
+    line-height: 1;
+    color: #000;
+}
+.box p{
+    margin-left: 1rem;
+    font-size: 20px;
+    line-height: 1;
+    color: black;
+    padding: 1rem 0;
+}
+.box .btn{
+    margin-left: 4rem;
+    display: inline-block;
+    padding: .3rem 1rem;
+    font-size: 20px;
+    border-radius: .2px;
+    border: .1px solid #000;
+    color: #000;
+    cursor: pointer;
+    background: none;
+    
+}
+.box .btn:hover{
+    background-color: lightslategrey;
+    color: black;
+    border: .2px solid lightpink;
+}

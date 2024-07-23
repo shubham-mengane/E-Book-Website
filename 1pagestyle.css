@@ -1,0 +1,231 @@
+<style>
+    #background{
+    min-height: 1050px;
+    width: 100%;
+   
+}
+#top{
+    height: 35px;
+    width: 100%;
+    background:#2c7ad6;
+   line-height: 35px;
+   padding: 0px 20px 9px 100px;
+   box-sizing: border-box;
+    word-spacing:10px ;
+    
+}
+#menu{
+    height:80px;
+    width: 100%;
+    background:lightblue;
+   
+}
+#logo{
+    height: 65px;
+    width: 40%;
+    background:lightblue;
+    text-align: left;
+    line-height: 65px;
+    font-size: 40px;
+    float: left;
+}
+
+#menu1{
+    height: 75px;
+    width: 100%;
+    background:lightblue;
+    float: left;
+}
+
+#menu1 UL{
+    list-style: none;
+    padding-left: 200px;
+    box-sizing: border-box;
+    margin: 15px;
+    
+}
+#menu1 LI{
+    height: 45px;
+    width: 130px;
+    text-align: right ; 
+    display: inline-block; 
+    line-height: 45px;
+    transform: translateY(-5px);
+    color: black;
+    font-size: 30px;
+}
+#menu1 LI:hover{
+    background: #2c7ad6;  
+    color: white; 
+    transition: all ease 1s;
+    border-radius: 3px;
+}
+
+#y{
+    height:640px;
+    width: 30%; 
+    float: left;    
+    
+}
+#z{
+    height:640px;
+    width: 30%;
+    float: left;
+}
+#r{
+    height:350px;
+    width: 60%;
+    background:rgba(44,122,214, .6);
+    border: 4px solid green;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    float: left;
+    margin: 90px;
+    border-radius: 7px ;
+
+}
+#r:hover{
+    background:url(file://localhost/C:/Users/SidivinayakAnganwadi/Desktop/mini%20project/e-books/education.jpg);
+    background-size: 120%;
+}
+
+#g{
+    height:640px;
+    width: 30%;
+    float: left;    
+    
+}
+#b{
+    height:350px;
+    width: 60%; 
+    background:rgba(44,122,214, .6);
+    border: 4px solid green;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    float: left; 
+    margin: 90px;
+    border-radius: 7px ;
+    
+}
+#b:hover{
+    background:url(file://localhost/C:/Users/SidivinayakAnganwadi/Desktop/mini%20project/e-books/stosy1.jpg);
+    background-size: 120%;
+}
+
+#f{
+    height:640px;
+    width: 30%;
+    float: left;    
+    
+}
+#e{
+    height:350px;
+    width: 60%; 
+    background:rgba(44,122,214, .6);
+    border: 4px solid green;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    float: left; 
+    margin: 90px;
+    border-radius: 7px ;
+    
+}
+#e:hover{
+    background:url(file:///C:/Users/SidivinayakAnganwadi/Desktop/mini%20project/e-books/360_F_343417326_MDTGsIpTTjSfm9pYSl2rqVshe6Rg3SwG.jpg);
+    background-size: 170%;
+}
+
+#a{
+    height:640px;
+    width: 30%;
+    float: left;    
+    
+}
+#s{
+    height:350px;
+    width: 60%; 
+    background:rgba(44,122,214, .6);
+    border: 4px solid green;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    float: left; 
+    margin: 90px;
+    border-radius: 7px ;
+    
+}
+#s:hover{
+    background:url(file://localhost/C:/Users/SidivinayakAnganwadi/Desktop/mini%20project/e-books/historical1.jpg);
+    background-size: 120%;
+}
+
+
+#c{
+    height:640px;
+    width: 30%;
+    float: left;    
+    
+}
+#m{
+    height:350px;
+    width: 60%; 
+    background:rgba(44,122,214, .6);
+    border: 4px solid green;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    float: left; 
+    margin: 90px;
+    border-radius: 7px ;
+    
+}
+#m:hover{
+    background:url(file:///C:/Users/SidivinayakAnganwadi/Desktop/mini%20project/e-books/istockphoto-492219680-612x612.jpg);
+    background-size: 170%;
+}
+
+#p{
+    height:640px;
+    width: 30%;
+    float: left;    
+    
+}
+#q{
+    height:350px;
+    width: 60%; 
+    background:rgba(44,122,214, .6);
+    border: 4px solid green;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    float: left; 
+    margin: 90px;
+    border-radius: 7px ;
+    
+}
+#q:hover{
+    background:url(file:///C:/Users/SidivinayakAnganwadi/Desktop/mini%20project/e-books/istockphoto-479252540-170667a.jpg);
+    background-size: 165%;
+}
+
+.button{
+    position: absolute; 
+    text-aLign: center; 
+    width: 150px;
+    padding: 20px;
+    font-size: 15px;
+    coLor: black;
+    font-famiLy: poppins;
+    font-weight: 150;
+    border: 5px solid black;
+    text-transform: uppercase;
+    Letter-spacing: 10px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 0.5s;
+    align: center;
+}
+
+.button:hover
+{       box-shadow: 0 5px 50px 0 white, 0 5px 50px 0 white, 
+        0 5px 50px 0 white, 0 5px 50px 0 white;
+        text-shadow: 0 0 5px #15f4ee, 0 0 Spx #15f4ed;
+}
+</style>
